@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-27T05:38:53Z",
+  "title": "Design System: Clínica Estética Odontológica",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Blanco",
+        "canonical": "#fff",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(25% 0 0)",
+          "oklch(37% 0 0)",
+          "oklch(49% 0 0)",
+          "oklch(61% 0 0)",
+          "oklch(73% 0 0)",
+          "oklch(85% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Tinta verde",
+        "canonical": "#183936",
+        "tonalRamp": [
+          "oklch(15% 0.0392 187.58)",
+          "oklch(25% 0.0392 187.58)",
+          "oklch(37% 0.0392 187.58)",
+          "oklch(49% 0.0392 187.58)",
+          "oklch(61% 0.0392 187.58)",
+          "oklch(73% 0.0392 187.58)",
+          "oklch(85% 0.0392 187.58)",
+          "oklch(95% 0.0392 187.58)"
+        ]
+      },
+      "teal": {
+        "role": "primary",
+        "displayName": "Turquesa de marca",
+        "canonical": "#3baaa5",
+        "tonalRamp": [
+          "oklch(15% 0.0988 190.80)",
+          "oklch(25% 0.0988 190.80)",
+          "oklch(37% 0.0988 190.80)",
+          "oklch(49% 0.0988 190.80)",
+          "oklch(61% 0.0988 190.80)",
+          "oklch(73% 0.0988 190.80)",
+          "oklch(85% 0.0988 190.80)",
+          "oklch(95% 0.0988 190.80)"
+        ]
+      },
+      "action": {
+        "role": "primary",
+        "displayName": "Verde de acción",
+        "canonical": "#12645f",
+        "tonalRamp": [
+          "oklch(15% 0.0738 188.58)",
+          "oklch(25% 0.0738 188.58)",
+          "oklch(37% 0.0738 188.58)",
+          "oklch(49% 0.0738 188.58)",
+          "oklch(61% 0.0738 188.58)",
+          "oklch(73% 0.0738 188.58)",
+          "oklch(85% 0.0738 188.58)",
+          "oklch(95% 0.0738 188.58)"
+        ]
+      },
+      "mint": {
+        "role": "neutral",
+        "displayName": "Menta",
+        "canonical": "#e7f3f1",
+        "tonalRamp": [
+          "oklch(15% 0.0130 185.09)",
+          "oklch(25% 0.0130 185.09)",
+          "oklch(37% 0.0130 185.09)",
+          "oklch(49% 0.0130 185.09)",
+          "oklch(61% 0.0130 185.09)",
+          "oklch(73% 0.0130 185.09)",
+          "oklch(85% 0.0130 185.09)",
+          "oklch(95% 0.0130 185.09)"
+        ]
+      },
+      "plum": {
+        "role": "secondary",
+        "displayName": "Ciruela de marca",
+        "canonical": "#75517a",
+        "tonalRamp": [
+          "oklch(15% 0.0772 322.40)",
+          "oklch(25% 0.0772 322.40)",
+          "oklch(37% 0.0772 322.40)",
+          "oklch(49% 0.0772 322.40)",
+          "oklch(61% 0.0772 322.40)",
+          "oklch(73% 0.0772 322.40)",
+          "oklch(85% 0.0772 322.40)",
+          "oklch(95% 0.0772 322.40)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Nombre principal en Bodoni Moda, con ajustes compactos y móviles."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Títulos de sección en Bodoni Moda."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Subtítulos funcionales en Manrope seminegrita."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Lectura general, con tamaño móvil y medidas acotadas por contexto."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Texto de la acción principal en Manrope seminegrita."
+      },
+      "navigation": {
+        "displayName": "Navigation",
+        "purpose": "Anclas de navegación en Manrope regular."
+      },
+      "metric": {
+        "displayName": "Metric",
+        "purpose": "Cifras grandes de la banda informativa, con números tabulares."
+      }
+    },
+    "shadows": [
+      {
+        "name": "floating-overlay",
+        "value": "0 12px 32px rgb(24 57 54 / 14%)",
+        "purpose": "Solo valoración absoluta sobre fotografía y contacto fijo; no bloques en reposo."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Curva compartida por desplazamientos de controles e iconos."
+      },
+      {
+        "name": "button-background",
+        "value": "0.2s ease",
+        "purpose": "Cambio de fondo de acción principal y contacto fijo."
+      },
+      {
+        "name": "button-press",
+        "value": "0.18s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Presión de la acción principal, con translateY(2px)."
+      },
+      {
+        "name": "icon-state",
+        "value": "0.24s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Flecha de la acción y rotación del archivo nativo."
+      },
+      {
+        "name": "hero-entry",
+        "value": "0.75s power3.out; stagger 0.07s",
+        "purpose": "Entrada de texto y valoración desde y=14px y opacity=0.88."
+      },
+      {
+        "name": "text-entry",
+        "value": "0.72s power3.out; stagger 0.07s",
+        "purpose": "Entrada una vez por sección desde y=22px y opacity=0.85."
+      },
+      {
+        "name": "image-entry",
+        "value": "0.85s power2.out",
+        "purpose": "Entrada de imágenes desde y=12px y opacity=0.92."
+      },
+      {
+        "name": "hero-photo-scrub",
+        "value": "scale 1.035 → 1; scrub 0.6",
+        "purpose": "Ajuste de escala de la fotografía al recorrer el hero, sin traslación."
+      },
+      {
+        "name": "metric-count",
+        "value": "1s power2.out",
+        "purpose": "Conteo de cifras una sola vez, con alternativa accesible estable."
+      },
+      {
+        "name": "wheel-smoothing",
+        "value": "lerp 0.12; smoothWheel true; syncTouch false",
+        "purpose": "Suavizado de rueda/trackpad; RAF sincronizado con el ticker y limpieza al cambiar la preferencia de movimiento."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact",
+        "value": "1100px"
+      },
+      {
+        "name": "mobile",
+        "value": "700px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Acción principal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Enlace de acción sólido con flecha, foco visible y respuesta a hover y presión.",
+      "html": "<a class=\"ds-button\" href=\"#turnos\">Pedí tu turno<svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></a>",
+      "css": ".ds-icon{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}.ds-button{display:inline-flex;align-items:center;justify-content:space-between;gap:32px;min-height:58px;padding:16px 24px;background:var(--action,#12645f);color:var(--paper,#fff);border-radius:var(--r-control,4px);font:600 16px/1.65 var(--body,Manrope,Arial,sans-serif);text-decoration:none;transition:background .2s ease,transform .18s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-button:hover{background:var(--ink,#183936)}.ds-button:focus-visible{outline:3px solid var(--plum,#75517a);outline-offset:6px}.ds-button:active{transform:translateY(2px)}.ds-button .ds-icon{transition:transform .24s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-button:hover .ds-icon{transform:translateX(3px)}@media(max-width:700px){.ds-button{min-height:56px;padding:15px 22px;font-size:15px}}@media(prefers-reduced-motion:reduce){.ds-button,.ds-button .ds-icon{transition:none}}"
+    },
+    {
+      "name": "Enlace de texto",
+      "kind": "button",
+      "refersTo": "text-link",
+      "description": "Enlace subrayado de lectura; el ejemplo usa el tamaño del pie.",
+      "html": "<a class=\"ds-text-link\" href=\"#inicio\">Volver al inicio</a>",
+      "css": ".ds-text-link{color:var(--ink,#183936);font:400 16px/1.65 var(--body,Manrope,Arial,sans-serif);text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:1px}.ds-text-link:hover{color:var(--action,#12645f)}.ds-text-link:focus-visible{outline:3px solid var(--plum,#75517a);outline-offset:6px}@media(max-width:700px){.ds-text-link{font-size:15px}}"
+    },
+    {
+      "name": "Navegación abierta",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Tres anclas visibles; la cabecera las sitúa bajo la marca en móvil.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Navegación principal\"><a href=\"#especialidades\">Especialidades</a><a href=\"#clinica\">La clínica</a><a href=\"#turnos\">Tu turno</a></nav>",
+      "css": ".ds-nav{display:flex;gap:32px;font:400 15px/1.65 var(--body,Manrope,Arial,sans-serif)}.ds-nav a{color:var(--ink,#183936);text-decoration:none}.ds-nav a:hover{color:var(--action,#12645f);text-decoration:underline;text-underline-offset:6px}.ds-nav a:focus-visible{outline:3px solid var(--plum,#75517a);outline-offset:6px}@media(max-width:1100px){.ds-nav{gap:24px}}@media(max-width:700px){.ds-nav{font-size:14px;justify-content:space-between;width:100%}}"
+    },
+    {
+      "name": "Valoración superpuesta",
+      "kind": "card",
+      "refersTo": "rating-card",
+      "description": "Panel absoluto sobre el mosaico fotográfico; la muestra usa su fondo base menta.",
+      "html": "<div class=\"ds-rating-stage\"><div class=\"ds-rating\" aria-label=\"Valoración de Google: 4,8 de 5, con 22 reseñas\"><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9L12 3Z\"/></svg><strong>4,8</strong><span>en Google<br>22 reseñas</span></div></div>",
+      "css": ".ds-icon{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}.ds-rating-stage{position:relative;min-height:130px;background:var(--mint,#e7f3f1)}.ds-rating{position:absolute;left:24px;bottom:20px;display:grid;grid-template-columns:24px auto auto;align-items:center;gap:12px;padding:16px 20px;background:var(--paper,#fff);color:var(--ink,#183936);border-radius:var(--r-float,16px);box-shadow:var(--float-shadow,0 12px 32px rgb(24 57 54 / 14%))}.ds-rating .ds-icon{color:var(--plum,#75517a)}.ds-rating strong{font:500 40px/1 var(--display,'Bodoni Moda',Georgia,serif)}.ds-rating span{font:400 14px/1.45 var(--body,Manrope,Arial,sans-serif)}@media(max-width:700px){.ds-rating{left:auto;right:12px;bottom:12px;padding:10px 14px;gap:8px;grid-template-columns:auto auto}.ds-rating>.ds-icon{display:none}.ds-rating strong{font-size:34px}.ds-rating span{font-size:13px}}"
+    },
+    {
+      "name": "Filas de especialidad",
+      "kind": "custom",
+      "refersTo": "service-row",
+      "description": "Lista abierta de texto y SVG, sin marco de tarjeta.",
+      "html": "<ul class=\"ds-service-list\"><li><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 5C8 2 4 4 4 8c0 5 3 12 5 12 1 0 1-6 3-6s2 6 3 6c2 0 5-7 5-12 0-4-4-6-8-3Zm0 0 3 1\"/></svg>Odontología general</li><li><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 5C8 2 4 4 4 8c0 5 3 12 5 12l1-8h4l1 8c2 0 5-7 5-12 0-4-4-6-8-3ZM12 8v4m-3-1 3 2 3-2\"/></svg>Endodoncia</li></ul>",
+      "css": ".ds-icon{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}.ds-service-list{display:grid;grid-template-columns:1fr 1fr;gap:36px 32px;align-content:start;list-style:none;padding:0;margin:0;color:var(--ink,#183936);font-family:var(--body,Manrope,Arial,sans-serif)}.ds-service-list li{display:flex;align-items:center;gap:16px;font-size:19px;line-height:1.4;min-height:40px}.ds-service-list .ds-icon{color:var(--action,#12645f);width:28px;height:28px}@media(max-width:1100px){.ds-service-list{grid-template-columns:1fr;gap:24px}}@media(max-width:700px){.ds-service-list li{font-size:18px}}"
+    },
+    {
+      "name": "Banda de cifras",
+      "kind": "custom",
+      "refersTo": "metrics-strip",
+      "description": "Cifras serif con descripciones sans; muestra el estado final estático, no una promesa de resultados.",
+      "html": "<div class=\"ds-proof\"><div class=\"ds-proof-inner\"><p><strong>4,8</strong><span>de valoración en Google</span></p><p><strong>22</strong><span>reseñas en Google</span></p><p><strong>10</strong><span>especialidades y servicios</span></p></div></div>",
+      "css": ".ds-proof{background:var(--mint,#e7f3f1);color:var(--ink,#183936);padding-block:40px}.ds-proof-inner{display:flex;justify-content:space-around;gap:40px}.ds-proof p{display:flex;align-items:center;gap:20px;margin:0}.ds-proof strong{font:500 64px/1 var(--display,'Bodoni Moda',Georgia,serif);font-variant-numeric:tabular-nums}.ds-proof p>span:last-child{max-width:17ch;font:400 16px/1.45 var(--body,Manrope,Arial,sans-serif)}@media(max-width:1100px){.ds-proof-inner{gap:24px}.ds-proof p{gap:12px}.ds-proof strong{font-size:52px}}@media(max-width:700px){.ds-proof{padding-block:32px}.ds-proof-inner{display:grid;grid-template-columns:1fr;gap:24px}.ds-proof p{gap:24px;justify-content:start}.ds-proof strong{font-size:48px;min-width:86px}.ds-proof p>span:last-child{font-size:15px;max-width:23ch}}"
+    },
+    {
+      "name": "Contacto flotante",
+      "kind": "button",
+      "refersTo": "floating-contact",
+      "description": "Control fijo circular con SVG y etiqueta accesible. El marco de muestra contiene su posición fija dentro del panel.",
+      "html": "<div class=\"ds-contact-stage\"><a class=\"ds-floating-contact\" href=\"#turnos\" aria-label=\"Pedí tu turno por WhatsApp\"><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M20.3 11.5a8.3 8.3 0 0 1-12.4 7.2L3 20l1.3-4.7a8.3 8.3 0 1 1 16-3.8Z\"/><path d=\"M8 7.5c-.7.5-1 1.4-.4 2.8.9 2 3 4.2 5.1 5 1.4.5 2.4.3 2.9-.5l.5-1-2.4-1.2-.8 1c-1.2-.5-2.8-2-3.3-3.2l1-.8-1.1-2.3L8 7.5Z\"/></svg></a></div>",
+      "css": ".ds-icon{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}.ds-contact-stage{min-height:112px;transform:translateZ(0)}.ds-floating-contact{position:fixed;bottom:24px;right:24px;z-index:5;display:grid;place-items:center;width:60px;height:60px;border-radius:var(--r-circle,50%);background:var(--action,#12645f);color:var(--paper,#fff);box-shadow:var(--float-shadow,0 12px 32px rgb(24 57 54 / 14%));text-decoration:none;transition:background .2s ease,transform .2s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-floating-contact>.ds-icon{width:30px;height:30px}.ds-floating-contact:hover{background:var(--plum,#75517a);transform:translateY(-3px)}.ds-floating-contact:focus-visible{outline:3px solid var(--plum,#75517a);outline-offset:6px}@media(max-width:700px){.ds-floating-contact{width:56px;height:56px;bottom:16px;right:16px}.ds-floating-contact>.ds-icon{width:28px;height:28px}}@media(prefers-reduced-motion:reduce){.ds-floating-contact{transition:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Clínica Estética Odontológica",
+    "overview": "La identidad parte del logo y de las ocho imágenes propias de la clínica: turquesa, ciruela, blanco, señalética y publicaciones reales. La serif editorial da presencia al nombre y a los títulos; la sans sostiene la lectura y las acciones. La página mantiene una densidad moderada, fotografías grandes y contenido abierto, sin convertir cada fragmento en una tarjeta.\n\nEste documento nació antes del HTML, CSS y JavaScript, por pedido del usuario. Esta edición conserva esa procedencia y contrasta sus decisiones con los archivos implementados. La referencia [GDental](https://www.gdental.es/) se vio renderizada el 27/10/2026 y aportó claridad de oferta, fotografía y organización de información; no aportó identidad, textos ni imágenes. Los diales acordados permanecen en varianza (6/10), movimiento (5/10) y densidad (4/10): su expresión actual es la asimetría editorial, las entradas breves y el ritmo de bloques abiertos.",
+    "keyCharacteristics": [
+      "Identidad turquesa y ciruela procedente del material propio.",
+      "Bodoni Moda para la voz editorial y Manrope para lectura y navegación.",
+      "Composición asimétrica, con una alineación recurrente al 42%.",
+      "Fotografías rectas y superficies planas; profundidad solo en superposiciones reales.",
+      "Movimiento progresivo con contenido completo en la alternativa estática."
+    ],
+    "rules": [
+      {
+        "name": "The Contrast Rule",
+        "body": "El turquesa conserva su papel de marca; el texto pequeño sobre blanco usa tinta o verde de acción.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "La serif concentra nombre, títulos editoriales y cifras; la sans conserva la claridad de texto, navegación y acciones.",
+        "section": "typography"
+      },
+      {
+        "name": "The Floating Depth Rule",
+        "body": "La sombra identifica una superposición real; no se hereda a secciones, fotografías ni contenedores de texto.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do conservar la identidad turquesa y ciruela del material propio y usar los tonos oscuros para lectura y acciones.",
+      "Do mantener Bodoni Moda (500) y Manrope (400/600), con los roles y las variantes responsive documentadas.",
+      "Do conservar las fotografías completas y su altura automática fuera de la franja superior.",
+      "Do distinguir radios por función y reservar la sombra para superposiciones reales.",
+      "Do conservar foco visible, semántica nativa y lectura completa con movimiento reducido o sin JavaScript."
+    ],
+    "donts": [
+      "Don't aplicar una sombra de tarjeta a bloques en reposo ni redondear por defecto las fotografías.",
+      "Don't convertir el turquesa claro en texto pequeño sobre blanco.",
+      "Don't sustituir las fotografías propias por stock, imágenes generadas o modificaciones de dientes.",
+      "Don't añadir degradados, glassmorphism, blur decorativo o una transición índigo-violeta a esta identidad.",
+      "Don't usar emojis o glifos tipográficos como sustitutos de los SVG propios."
+    ]
+  }
+}
