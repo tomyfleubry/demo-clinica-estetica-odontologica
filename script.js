@@ -50,6 +50,5 @@
     };
   });
   document.fonts?.ready.then(() => ScrollTrigger.refresh());
-  document.querySelector('#archivo')?.addEventListener('toggle', () => ScrollTrigger.refresh());
   window.addEventListener('load', () => ScrollTrigger.refresh(), { once: true });
 })();
